@@ -1,0 +1,14 @@
+{
+  "name": "openedx-con-2019",
+  "version": "1.0.0",
+  "description": "🎓 Resources for our Open edX Con 2018 workshop and talks",
+  "main": "null",
+  "repository": "https://github.com/openfun/openedx-con-2019",
+  "author": "Mehdi Benadda <me@mbenadda.com>",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "highlight.js": "9.15.6",
+    "http-server": "0.11.1",
+    "reveal.js": "3.7.0"
+  }
+}

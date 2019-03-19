@@ -1,0 +1,16 @@
+/*
+    Custom css rules
+ */
+
+.reveal pre {
+  box-shadow: none;
+}
+
+.reveal pre code {
+  padding: 1rem;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}

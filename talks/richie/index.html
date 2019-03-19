@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Richie, a CMS Open edX — France Université Numérique</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../../node_modules/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/css/theme/white.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="../../node_modules/highlight.js/styles/agate.css">
+
+  <!-- Custom fonts/theme -->
+  <link rel="stylesheet" href="../../assets/css/custom.css">
+
+  <style>
+    .reveal section img {
+      border: none;
+      box-shadow: none;
+    }
+  </style>
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? '../../node_modules/reveal.js/css/print/pdf.css' : '../../assets/reveal.js/css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="00-title.md" class="title" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+      <section data-markdown="98-thanks.md" class="thanks" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+      <section data-markdown="99-q&a.md" class="q-and-a" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+    </div>
+  </div>
+
+  <script src="../../node_modules/reveal.js/lib/js/head.min.js"></script>
+  <script src="../../node_modules/reveal.js/js/reveal.js"></script>
+
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      dependencies: [
+        { src: '../../node_modules/reveal.js/plugin/markdown/marked.js' },
+        { src: '../../node_modules/reveal.js/plugin/markdown/markdown.js' },
+        { src: '../../node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+      ]
+    });
+  </script>
+</body>
+
+</html>
