@@ -2,4 +2,4 @@
 
 - OpenShift @ FUNmooc - https://richie.education
 - Kubernetes
-- Amazon Web Service (AWS ECS / EKS)
+- Amazon Web Services (AWS ECS / EKS)
