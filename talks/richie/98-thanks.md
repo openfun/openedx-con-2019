@@ -1,8 +1,6 @@
 ## Thank you!
 
-Get in touch:
-
-<i class="far fa-envelope"></i> [David Truong](mailto:david.minh-tam.truong@umontreal.ca) / [Mehdi Benadda](mailto:me@mbenadda.com)
+<i class="fas fa-desktop"></i> Slides: https://bit.ly/2FuK43D
 
 <i class="fab fa-github"></i> [openfun/richie](https://github.com/openfun/richie)
 
