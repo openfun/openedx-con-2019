@@ -10,14 +10,14 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="../../node_modules/reveal.js/css/reveal.css">
-  <link rel="stylesheet" href="../../node_modules/reveal.js/css/theme/white.css">
+  <link rel="stylesheet" href="vendor/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="vendor/reveal.js/css/theme/white.css">
 
   <!-- Theme used for syntax highlighting of code -->
-  <link rel="stylesheet" href="../../node_modules/highlight.js/styles/agate.css">
+  <link rel="stylesheet" href="vendor/highlight.js/styles/agate.css">
 
   <!-- Custom fonts/theme -->
-  <link rel="stylesheet" href="../../assets/css/custom.css">
+  <link rel="stylesheet" href="vendor/assets/css/custom.css">
 
   <style>
     .reveal section img {
@@ -31,7 +31,7 @@
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? '../../node_modules/reveal.js/css/print/pdf.css' : '../../assets/reveal.js/css/print/paper.css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'vendor/reveal.js/css/print/pdf.css' : 'vendor/reveal.js/css/print/paper.css';
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
 </head>
@@ -212,8 +212,8 @@
     </div>
   </div>
 
-  <script src="../../node_modules/reveal.js/lib/js/head.min.js"></script>
-  <script src="../../node_modules/reveal.js/js/reveal.js"></script>
+  <script src="vendor/reveal.js/lib/js/head.min.js"></script>
+  <script src="vendor/reveal.js/js/reveal.js"></script>
 
   <script>
     Reveal.initialize({
@@ -223,9 +223,9 @@
       center: true,
 
       dependencies: [
-        { src: '../../node_modules/reveal.js/plugin/markdown/marked.js' },
-        { src: '../../node_modules/reveal.js/plugin/markdown/markdown.js' },
-        { src: '../../node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+        { src: 'vendor/reveal.js/plugin/markdown/marked.js' },
+        { src: 'vendor/reveal.js/plugin/markdown/markdown.js' },
+        { src: 'vendor/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
       ]
     });
   </script>
