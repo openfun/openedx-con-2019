@@ -1,5 +1,5 @@
 ### Friends of Open edX
 
-- Informal working group
 - Started at Open edX 2018
+- Informal working group
 - FUN MOOC, EDUlib & others 👏
