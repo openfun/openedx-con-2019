@@ -1,4 +1,4 @@
-## How did we build it
+## How we built it
 
 - Django app
 - React frontend

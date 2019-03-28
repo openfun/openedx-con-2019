@@ -1,6 +1,6 @@
 # Marsha
 
-### An open LTI video provider for Open edX
+### An open LTI video provider
 
 <small>
 [Open edX Conference](https://con.openedx.org)

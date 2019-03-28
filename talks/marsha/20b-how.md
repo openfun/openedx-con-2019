@@ -1,3 +1,3 @@
-## How did we build it
+## How we built it
 
 - A Django app

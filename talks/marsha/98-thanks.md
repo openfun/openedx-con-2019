@@ -4,4 +4,4 @@
 
 <i class="fab fa-github"></i> [openfun/marsha](https://github.com/openfun/marsha)
 
-<i class="fas fa-video"></i> Every thursday @ 3:30 PM UTC
+<i class="fab fa-slack"></i> @mehdi

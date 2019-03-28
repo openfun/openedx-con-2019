@@ -1,1 +1,1 @@
-## How did we build it
+## How we built it
