@@ -1,4 +1,4 @@
 ## Edit Richie
 
 - MIT Licence
-- Make PRs or fork it
+- Make PRs or even fork it
