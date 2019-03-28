@@ -1,4 +1,4 @@
-# Edulib & FUN materials for the Open edX 2019 Conference
+# EDUlib & FUN materials for the Open edX 2019 Conference
 
 In this repository, you will find resources used in our talks and workshop spent
 during the 2019 edition of the [Open edX conference](https://con.openedx.org/).
@@ -15,7 +15,7 @@ during the 2019 edition of the [Open edX conference](https://con.openedx.org/).
 ### Marsha: an open LTI video provider for open edx
 
 * [Slides](https://openfun.github.io/openedx-con-2019/talks/marsha/)
-* GitHub repository: [https://github.com/openfun/marsha](https://git[hub.com/openfun/marsha)
+* GitHub repository: [https://github.com/openfun/marsha](https://github.com/openfun/marsha)
 
 ## License
 
